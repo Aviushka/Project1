@@ -1,0 +1,25 @@
+.post {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.post small {
+    color: #666;
+    font-style: italic;
+}
+
+.post br {
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.active {
+    font-weight: bold;
+  }
