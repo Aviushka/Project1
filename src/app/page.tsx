@@ -48,7 +48,9 @@ function gotoNextPage() {
 }
 
 function gotoPrevPage() {
-  setActivePage(activePage-1)
+  if(activePage>1){
+    setActivePage(activePage-1)
+  }
 }
 
 function gotoFirstPage() {
