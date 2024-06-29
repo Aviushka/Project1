@@ -10,10 +10,10 @@ interface Paginationprops {
 const Pagination: React.FC<Paginationprops> = ({ gotoNextPage, gotoPrevPage, gotoFirstPage, gotoLastPage}) => {
   return (
     <div>
-      {gotoFirstPage && <button name="First" onClick={gotoFirstPage}>First</button>}
-      {gotoPrevPage && <button name="Previous" onClick={gotoPrevPage}>Previous</button>}
-      {gotoNextPage && <button name="Next" onClick={gotoNextPage}>Next</button>}
-      {gotoLastPage && <button name="Last" onClick={gotoLastPage}>Last</button>}
+      {gotoFirstPage && <button name="first" onClick={gotoFirstPage}>First</button>}
+      {gotoPrevPage && <button name="previous" onClick={gotoPrevPage}>Previous</button>}
+      {gotoNextPage && <button name="next" onClick={gotoNextPage}>Next</button>}
+      {gotoLastPage && <button name="last" onClick={gotoLastPage}>Last</button>}
 
     </div>
   )

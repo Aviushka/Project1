@@ -22,7 +22,7 @@ const NoteList: React.FC<NotesListProps> = ({ notes }) => {
     <div>
       {notes.map(note => (
        
-       <div className="post" key={note.id} id={`note-${note.id}`}>
+       <div className="post" key={note.id} id={`${note.id}`}>
           <h2>{note.title}</h2>
           <small>By {note.author.name}</small>
           <br />
